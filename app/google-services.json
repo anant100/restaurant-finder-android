@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "384647118800",
+    "project_id": "zinc-night-160205"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384647118800:android:eb1cb7df463b7877",
+        "android_client_info": {
+          "package_name": "com.test.greasyspoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384647118800-4rh7e5r81j912am2c8e1aoheiuqd1i7q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "384647118800-fq51h2lh4t30f2m2qbgkf3n5bkcklm1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test.greasyspoon",
+            "certificate_hash": "ff2ce4d80ff12d10c6bf1e95a76e7629b5d0ab18"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKCwGa2EPOIPvcjE4lY8UhvkqjJnFuNK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
