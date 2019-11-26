@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.greasyspoon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider.1914448622117171"
+            android:exported="true" />
+
+        <activity android:name=".LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeedActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ViewDetails" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".ViewFoodItemList" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".viewProfile" />
+        <activity android:name=".LoginDetails" />
+        <activity android:name=".password_change" />
+        <activity android:name=".menu_dialog" />
+        <activity android:name=".show_bookmark" />
+        <activity android:name=".BasicSearch" />
+        <activity android:name=".AddRestaurant" />
+        <activity android:name=".EditRestaurant" />
+        <activity android:name=".View_Restaurants" />
+        <activity android:name=".show_Rdetails" />
+        <activity android:name=".about_us" />
+        <activity android:name=".HomeActivity_RestaurantOwner" />
+        <activity android:name=".HomeActivity_Admin" />
+        <activity android:name=".HomeActivity_User" />
+        <activity android:name=".menu_dialog_Rowner" />
+        <activity android:name=".view_myResDetails" />
+        <activity android:name=".manage_myResDetails" />
+        <activity android:name=".search" />
+        <activity android:name=".payment_method" />
+        <activity android:name=".mycart" />
+        <activity android:name=".findres" />
+        <activity android:name=".advanceSearch" />
+        <activity android:name=".SearchBycity" />
+        <activity android:name=".searchBybudget" />
+        <activity android:name=".searchBycuisine" />
+        <activity android:name=".findBycity" />
+        <activity android:name=".show_mysearch" />
+        <activity android:name=".findBybudget" />
+        <activity android:name=".findBycuisine" />
+        <activity android:name=".checkout" />
+        <activity android:name=".payment" />
+        <activity android:name=".view_ROprofile" />
+        <activity android:name=".ROPasswordChange"></activity>
+    </application>
+
+</manifest>
